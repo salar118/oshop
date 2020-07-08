@@ -25,3 +25,27 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## After starting project
+
+Run following instructions after starting the project
+
+Adding ng-bootsrap:
+<ol>
+<li>ng add @ng-bootstrap/ng-bootstrap</li>
+<li>npm install --save @nativescript/schematics</li>
+<li>ng add @angular/localize</li>
+</ol>
+
+Deploying to Firebase
+<ol>
+<li>sudo npm install g firebase-tools </li>
+<li>firebase login</li>
+<li>Check the rest in the following site</li>
+    <ol>
+        <li>[Download Page]((https://www.positronx.io/deploy-angular-app-to-production-with-firebase-hosting/))</li>
+    </ol>
+ <li>ng build --prod</li>
+ <li>firebase deploy</li>
+   
+</ol>
